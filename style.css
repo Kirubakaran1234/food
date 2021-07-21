@@ -1,0 +1,464 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+.row
+{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+
+h1,h2,h3{
+    
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 0.8px;
+}
+
+h1{
+    margin:0;
+    font-size: 200%;
+    color:white;
+}
+
+h2{
+    text-align: center;
+    font-size: 180%;
+    margin-bottom: 30px;
+}
+
+h2:after{
+    display: block;
+    content:"";
+    height: 4px;
+    width: 100px;
+    background-color:orange;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+h3{
+    font-size: 110%;
+    margin-bottom: 10px;
+}
+
+header
+{
+   background-image: linear-gradient(rgba(78, 73, 73, 0.507),rgba(247, 193, 193, 0.336));
+   background-size: cover;
+   height: 100vh;
+   background-position: center;
+}
+
+.feature{
+    padding: 100px;
+    
+}
+
+
+
+.hero-box{
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.btn:link,
+.btn:active,
+input[type=submit]{
+   text-decoration: none;
+   padding: 10px ;
+   display: inline-block;
+   font-weight: 300;
+   border: 1px solid #e67e22;
+   border-radius: 200px; 
+   margin-right:20px;
+   margin-top:20px;
+
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]{
+   background-color:#e67e22;
+   border: 1px solid #e67e22;
+   color: white;
+}
+
+.btn-gho:link,
+.btn-full:visited{
+    border:1px solid #e67e22;
+    color: #e67e22;
+
+}
+
+.btn:hover,
+.btn:active{
+    background-color: tomato;
+}
+
+.btn-full:hover,
+.btn-full:active{
+  
+   border: 1px solid #e67e22;
+  
+}
+
+.btn-gho:hover,
+.btn-full:active{
+    border:1px solid #e67e22;
+    color: white;
+}
+
+.logo
+{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    
+}
+
+.navi 
+{
+    float: right;
+   margin-top: 55px;
+    list-style: none;
+}
+
+.navi li{
+   
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    background-color: black;
+   
+
+}
+
+.navi li a:link,
+.navi li a:visited{
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+
+}
+
+.navi li a:hover,
+.navi li a:active{
+    border-bottom: 2px solid #e67e22;
+
+}
+
+.long-copy{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.box{
+    padding: 1%;
+}
+
+.box p{
+    line-height: 145%;
+    font-size: 90%;
+
+}
+
+.icon-big{
+    font-size: 400%; 
+    color: #e67e22;
+}
+
+.meals-show{
+    list-style: none;
+    width: 100%;
+}
+
+.meals-show li{
+    width: 25%;
+    float: left;
+    display: block;
+      
+}
+
+.meals-photo{
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+  
+}
+
+.meals-show img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.13);
+}
+
+.meals-show img:hover{
+    transform: scale(1);
+    opacity: 1;
+
+}
+
+.step-box1{
+    text-align: right;
+    margin-right: 30px;
+    padding: 4%;
+}
+
+.step-box2
+{
+    padding: 4%;
+   
+    
+}
+
+.andriod{
+    width: 40%;
+    height: auto;
+}
+
+.btn-app{
+    margin-top: 20px;
+    width: 20px;
+    height: auto;
+}
+
+.works{
+    padding: 100px;
+   
+}
+
+.clear::after{
+    display: block;
+    content: '';
+    clear: both;
+    visibility: hidden;
+   
+}
+.work-step:first-child{
+    margin-top: 70px;
+}
+.work-step:last-of-type{
+    margin-bottom: 20px;
+}
+
+.work-step{
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.work-step div{
+    color: black;
+    border: 1px solid navy;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center; 
+    margin-right: 15px;
+    display: block;
+    float: left;
+    font-size: 150%;
+   
+}
+.icon-small{
+    color: orange;
+    margin-right: 25px;
+    margin-top: -4px;
+}
+
+a:link,
+a:visited{
+    color: orange;
+    border-bottom: 1px solid orange;
+    text-decoration: none;
+}
+
+a:hover,
+a:active{
+    color: black;
+    border-bottom: 1px solid transparent;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    
+}
+.city{
+    margin-bottom: 10px;
+}
+
+.testmonials{
+    background-image: linear-gradient(rgba(78, 73, 73, 0.507),rgba(247, 193, 193, 0.336)),url(img/back-customers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-style: italic;
+    padding: 100px;
+}
+
+blockquote{
+    padding: 4%;;
+}
+
+blockquote::before{
+    content: '\201c';
+    font-size: 150%;
+}
+cite{
+    font-size: 90%;
+    display: block;
+    margin-top: 10px;
+}
+
+cite img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.con{
+    width: 90%;
+    margin-left: 5%;
+    padding: 3%;
+    border: 2px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(78, 73, 73, 0.507);
+}
+.con div{
+    border-bottom: 1px solid orange;
+}
+
+.meels-plan{
+    font-size: 300%;
+    margin-bottom: 10px;
+    color: orange;
+    font-weight: 100;
+}
+
+.meels-plan span{
+    font-size: 30%;
+}
+.plan-meels{
+    font-size: 80%;
+
+}
+
+.con ul{
+    list-style: none;
+}
+
+.con-first-child{
+    color: papayawhip;
+}
+.con div :last-child{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.con:last-child{
+    text-align: center;
+}
+
+.con ul li{
+    padding: 4%;
+    margin-left: 15px;
+}
+.sign-up{
+    padding:100px;
+    background-color: palegoldenrod;
+}
+
+.form{
+    padding: 100px;
+}
+
+.forms{
+    width: 60%;
+    margin-left: 20%;
+}
+
+input[type=text],input[type=email],textarea,select{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+*:focus{outline: none;}
+footer{
+    text-align: center;
+    background-color: black;
+}
+
+.foo-nav li{
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+}
+
+
+.soc-nav li{
+    float:right;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+   
+}
+
+.ion-social-facebook:hover{
+    color: blue;
+}
+
+.ion-social-twitter:hover{
+    color: lightseagreen;
+}
+
+.ion-social-whatsapp:hover{
+    color:green;
+}
+
+.ion-social-insta:hover{
+    color:brown;
+}
+.soc-nav { 
+    font-size: 200%;
+    float: right;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 80%;
+}

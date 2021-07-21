@@ -1,0 +1,82 @@
+
+@media only screen and (max-width:1200px)
+{
+    .hero-box{
+        width: 100%;
+        padding: 0 2%;
+        color: blue;
+    }
+
+
+    .row{
+        padding: 0 2%;
+    }
+
+}
+
+@media only screen and (max-width:1023px)
+{
+    body{font-size: 18px;}
+    section{padding: 60px 0;}
+    .long-copy{width: 80%; margin-left: 10%;}
+    .meels-plan{font-size: 100%;}
+
+    .work-step:first-child{
+        margin-top: 0px;
+    }
+
+    .icon-small{
+        margin-right: 9px;
+    }
+
+    .city{
+        font-size: 90%;
+    }
+     
+    .con{
+        width: 100%;
+    }
+
+    .forms{
+        width: 80%;
+    }
+
+    .andriod{
+        width: 50%;
+    }
+    
+}
+
+@media only screen and (max-width:767px)
+{
+    .col{
+        width: 100%;
+    }
+
+    .row{
+       
+        padding: 0 4%;
+    }
+
+    .hero-box{
+        padding: 0 2%;
+    }
+    section{padding: 60px 0;}
+    .navi{
+        visibility: hidden;
+    }
+    
+    .andriod{
+        text-align: center;
+       
+    }
+
+    .work-step {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:480px)
+{
+    
+}
